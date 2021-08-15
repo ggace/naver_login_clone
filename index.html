@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 테일윈드 불러오기 -->
+    <!-- 노말라이즈, 라이브러리까지 한방에 해결 -->
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <!-- 폰트어썸 불러오기 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  </head>
+  <body class="bg-gray-100">
+
+    <main style="width: 768px" class="mx-auto">
+      <section class="flex justify-end">
+        <select class="selects text-xs border-gray-300 p-3 bg-gray-100 px-1 py-1">
+          <option class="text-base">한국어</option>
+          <option class="text-base">English</option>
+          <option class="text-base">中文(简体)</option>
+          <option class="text-base">中文(台灣)</option>
+        </select>
+      </section>
+
+
+      <h1 class="mt-12 text-center text-6xl font-black"><b>NAVER</b></h1>
+      <section class="m-10 mb-2">
+        <div class="w-full flex justify-center">
+          <input class="input" placeholder="아이디"></input>
+        </div>
+        <div class="w-full flex justify-center">
+          <input class="input" placeholder="비밀번호"></input>
+        </div>
+        <div class="w-full flex justify-center">
+          <input class="button" type="button" value="로그인">
+        </div>
+      </section>
+
+      <section class="under flex mx-auto my-3">
+        <section class="flex">
+          <input id="check" type="checkbox" name="" value="">
+          <p>로그인 상태 유지</p>
+        </section>
+        <div class="flex flex-grow"></div>
+        <section class="flex">
+          <p>IP 보안</p>
+          <p class="mx-1 text-gray-400"><b>OFF</b></p>
+        </section>
+      </section>
+
+      <hr>
+
+      <section class="mt-12">
+        <h3 class="text-center text-xl">더욱 간편한 로그인</h3>
+
+        <section class="common mx-auto my-5 ">
+          <button id="simpleLogin" type="button" name="button">QR<b>코드 로그인</b></button>
+          <button id="simpleLogin" type="button" name="button"><b>일회용 번호 로그인</b></button>
+        </section>
+        <section class="flex justify-center">
+          <a href="" class="mx-2 text-gray-500 text-sm" type="button" name="button">아이디 찾기</a>
+          <a href="" class="mx-2 text-gray-500 text-sm" type="button" name="button">비밀번호 찾기</a>
+          <a href="" class="mx-2 text-gray-500 text-sm" type="button" name="button">회원가입</a>
+        </section>
+
+        <section class="w-full">
+          <img class="common mx-auto my-10 border border-gray-300" src="https://ssl.pstatic.net/static/nid/login/banner/m_banner_qrcheckin_920.jpg" alt="">
+        </section>
+
+
+
+      </section>
+
+      <section class="m-20">
+        <section class="flex common mx-auto">
+          <p class="mx-2 text-xs">이용약관</p>
+          <p class="mx-2 text-xs"><b>개인정보처리방침 </b></p>
+          <p class="mx-2 text-xs">책임의 한계와 법적고지</p>
+          <p class="mx-2 text-xs">회원정보 고객센터</p>
+        </section>
+        <section>
+          <p class="block text-xs text-center">
+            <span class="inline" style="font-family: 'Helvetica', 'Arial', sans-serif;color: #00C850;">
+              <b>NAVER</b>
+            </span>
+            naverCopyright © <b>NAVER Corp.</b> All Rights Reserved.
+          </p>
+        </section>
+      </section>
+    </main>
+
+  </body>
+</html>

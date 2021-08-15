@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@font-face {
+     font-family: 'S-CoreDream-9Black';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+h1 {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #00C850;
+}
+
+.input{
+  width: 460px;
+  height: 50px;
+  padding: 13px;
+  border: 1px solid rgba(209, 213, 219);
+  margin: 5px;
+  font-size: 15px;
+
+}
+
+.selects {
+
+  width: 100px;
+  height: 33px;
+  margin-top: 15px;
+
+}
+
+.select option{
+  font-size: 5px;
+}
+
+.button{
+  background-color: #03C75A;
+  width: 460px;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  border: 1px solid rgba(209, 255, 255);
+  margin: 5px;
+}
+
+#check {
+  width: 24px;
+  height: 24px;
+  border: 0px;
+  background-image: url(resources/check2.png);
+}
+
+.under{
+  width: 460px;
+}
+
+h3{
+
+}
+
+#simpleLogin{
+  padding-top: 19px;
+  padding-bottom: 13px;
+  width: 224px;
+  border: 1px solid #00C850;
+  background-color: white;
+}
+
+.common {
+  width: 460px;
+}
+
+.text-xl {
+  font-weight: 530;
+}
